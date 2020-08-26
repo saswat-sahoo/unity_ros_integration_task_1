@@ -10,7 +10,7 @@ int main(int argc ,char** argv)
    while(ros::ok())
 { 
    float val;
-  std::cout<<"Write something!";
+  std::cout<<"Write the commands";
   std::cin>>val;
   msg.data = val ;
   pub.publish(msg);
